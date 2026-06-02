@@ -63,8 +63,12 @@ p { color: var(--ink-soft); }
 
 /* ------------ Layout primitives ------------ */
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
-.section { padding: 96px 0; }
-.section-tight { padding: 64px 0; }
+.section {
+  padding: 60px 0;
+}
+.section-tight {
+  padding: 40px 0;
+}
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 12px;
