@@ -456,3 +456,28 @@ html{scroll-padding-top:96px}
     font-size:clamp(2rem,11vw,3.2rem);
   }
 }
+
+/* OUR APPROACH - Mobile Fix */
+@media (max-width:768px){
+
+  .approach{
+    text-align:center;
+  }
+
+  .approach > div:first-child{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .approach > div:first-child > div:nth-child(2){
+    margin-top:28px !important;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .approach img{
+    margin:0 auto;
+  }
+
+}
